@@ -79,5 +79,8 @@ public class Cuerpo extends Thread{
         t.penDown();
     }
     
+    t.penUp();
+    t.forward(80);
+    
     }
 }

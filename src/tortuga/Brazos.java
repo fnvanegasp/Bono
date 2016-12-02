@@ -24,6 +24,7 @@ public class Brazos extends Thread{
  }
 
  private void segment(Turtle t){
+     
     t.right(90);
     t.forward(10);
     t.penUp();
@@ -145,8 +146,97 @@ public class Brazos extends Thread{
     t.right(90);
     t.forward(60);
     t.right(90);
-    t.forward(20);
+    t.forward(21);
+    t.right(90);
+    t.forward(60);
+    
+    t.right(90);
+    t.forward(5);
     t.left(90);
+    
+    t.forward(5);
+    t.right(90);
+    t.forward(5);
+    t.right(90);
+    t.forward(5);
+    
+    t.right(180);
+    t.forward(8);
+    t.left(90);
+    t.forward(2.5);
+    
+    for(int i = 0; i < 450; i++){
+            t.forward(0.13);
+            t.right(1);
+        }
+    
+    t.forward(15);
+    t.left(90);
+    t.forward(5);
+    t.left(90);
+    t.forward(15);
+    t.left(90);
+    t.forward(5);
+    
+    t.penUp();
+    t.forward(15);
+    t.penDown();
+    t.left(90);
+    
+    t.forward(15);
+    t.right(90);
+    t.forward(5);
+    t.right(90);
+    t.forward(15);
+    t.right(90);
+    t.forward(5);
+    
+    t.penUp();
+    t.forward(200);
+    t.left(90);
+    t.forward(30);
+    t.right(180);
+    
+    
+    
+    
+    
+    t.forward(5);
+    t.left(90);
+    t.forward(5);
+    t.left(90);
+    t.forward(5);
+    
+    t.left(180);
+    t.forward(5);
+    t.right(90);
+    t.forward(2.5);
+    
+    for(int i = 0; i < 450; i++){
+            t.forward(0.13);
+            t.left(1);
+        }
+    
+    t.forward(15);
+    t.right(90);
+    t.forward(5);
+    t.right(90);
+    t.forward(15);
+    t.right(90);
+    t.forward(5);
+    
+    t.penUp();
+    t.forward(15);
+    t.penDown();
+    t.right(90);
+    
+    t.forward(15);
+    t.left(90);
+    t.forward(5);
+    t.left(90);
+    t.forward(15);
+    t.left(90);
+    t.forward(5);
     
     }
 }
