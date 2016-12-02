@@ -194,7 +194,7 @@ public class Brazos extends Thread{
     t.penUp();
     t.forward(200);
     t.left(90);
-    t.forward(30);
+    t.forward(15);
     t.right(180);
     t.penDown();
     
