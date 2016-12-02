@@ -86,6 +86,32 @@ public class Cabeza extends Thread{
     
     t.left(90);
     t.penUp();
+    t.forward(10);
+    t.right(90);
+    t.forward(5);
+    t.right(90);
+    t.penDown();
+    
+    for(int i = 0; i < 180; i++){
+            t.forward(0.08);
+            t.right(1);
+        }
+    
+    t.left(90);
+    t.penUp();
+    t.forward(41);
+    t.penDown();
+    t.left(90);
+    
+    for(int i = 0; i < 180; i++){
+            t.forward(0.08);
+            t.right(1);
+        }
+    
+    t.penUp();
+    t.left(90);
+    t.forward(30);
     
     }
+    
 }
